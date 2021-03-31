@@ -1,5 +1,5 @@
 
-# xaringan-template
+# xaringan-storybook
 
 This is a repository template for `xaringan` slides.
 

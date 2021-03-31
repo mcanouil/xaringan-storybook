@@ -1,57 +1,20 @@
-# Introduction
 
-## Subtitle
+class: center middle inverse lettrine
 
-`some code` and some text.  
-A URL [m.canouil.fr](https://m.canouil.fr/).
-
-```{r, echo = TRUE}
-1 + 1
-```
-
-```{r, echo = TRUE}
-x <- 1
-y <- x + 1 #<<
-y
-```
+# Chapter 1
 
 ---
+class: lettrine
 
-# New slide with a panels
+# Lorem Ipsum
 
-.panelset[
-.panel[.panel-name[R Code]
-```{r, eval = FALSE}
-head(iris, 10)
-```
-]
-.panel[.panel-name[Table]
-```{r, echo = FALSE}
-kable(head(iris, 10))
-```
-]
-.panel[.panel-name[Plot]
-```{r, echo = FALSE}
-plot(iris[[1]], iris[[2]])
-```
-]
-]
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.  
+Ut condimentum velit id purus euismod placerat. 
 
----
++ Cras semper velit non odio dignissim, sit amet efficitur justo pharetra. 
++ Sed quis dolor neque. Aenean ac accumsan elit. 
++ Nullam tellus ante, lacinia ac ligula at, tempor lobortis tortor. 
++ Nulla rutrum arcu felis, eget semper tellus sollicitudin ut. 
++ Donec ut neque orci. 
 
-# GGPLOT2 With `code`
-
-```{r, echo = FALSE}
-ggplot(mtcars, aes(wt, mpg)) + geom_point(colour = theme_get()$line$colour) + labs(title = "GGPLOT2")
-```
-
----
-class: part-slide
-
-# PART 1 With `code`
-
----
-
-# New slide
-
-With only text
+.footnote[Maecenas feugiat gravida mi, egestas pretium dui faucibus sit amet.]

@@ -9,7 +9,10 @@ params:
 output:
   xaringan::moon_reader:
     self_contained: true
-    css: [css/default.css, css/fonts.css]
+    css: ["default", "utils/default.css", "utils/fonts.css"]
+    includes:
+      in_header: utils/_favicon.html
+      after_body: utils/_scripts.html
     nature:
       highlightStyle: github
       highlightLines: true

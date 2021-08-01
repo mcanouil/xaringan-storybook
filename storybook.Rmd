@@ -5,14 +5,14 @@ author:  'Mickaël Canouil, _Ph.D._'
 date: '`r format(Sys.Date(), "%B %d, %Y")`'
 knit: (function(inputFile, encoding) rmarkdown::render(inputFile, encoding = encoding, output_file = "docs/index.html"))
 params:
-  content: ['Rmd/content.Rmd']
+  content: ['content/content.Rmd']
 output:
   xaringan::moon_reader:
     self_contained: true
-    css: ["default", "utils/default.css", "utils/fonts.css"]
+    mathjax: null
+    css: ["default", "assets/default.css", "assets/fonts.css"]
     includes:
-      in_header: utils/_favicon.html
-      after_body: utils/_scripts.html
+      in_header: assets/_scripts.html
     nature:
       highlightStyle: github
       highlightLines: true

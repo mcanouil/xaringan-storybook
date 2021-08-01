@@ -1,5 +1,4 @@
-
-# xaringan-storybook
+# xaringan-storybook <img src="https://raw.githubusercontent.com/mcanouil/hex-stickers/main/SVG/mcsb.svg" align="right" width="120" />
 
 This is a repository template for `xaringan` slides.
 

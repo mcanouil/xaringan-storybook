@@ -1,4 +1,12 @@
-# xaringan-storybook <img src="https://raw.githubusercontent.com/mcanouil/hex-stickers/main/SVG/mcsb.svg" align="right" width="120" />
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+# xaringan-storybook
+
+<!-- badges: start -->
+
+[![License](https://img.shields.io/github/license/mcanouil/xaringan-storybook)](LICENSE)
+<!-- badges: end -->
 
 This is a repository template for `xaringan` slides.
 

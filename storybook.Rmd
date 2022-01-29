@@ -44,7 +44,7 @@ opts_chunk$set(
   include = TRUE, # Default: TRUE
   echo = TRUE, # Default: TRUE
   width = getOption("width"),
-  comment = "#>", 
+  comment = "#>",
   fig.align = "center",
   fig.width = 11.5, # Default: 7
   fig.height = 5.75,  # Default: 7

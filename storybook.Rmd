@@ -3,7 +3,6 @@ title: "A Tale To Tell"
 subtitle: "But Not Yet ..."
 author:  'Mickaël Canouil, _Ph.D._'
 date: '`r format(Sys.Date(), "%B %d, %Y")`'
-knit: (function(inputFile, encoding) rmarkdown::render(inputFile, encoding = encoding, output_file = "docs/index.html"))
 params:
   content: ['content/content.Rmd']
 output:
